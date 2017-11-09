@@ -23,26 +23,27 @@
 
 	<div class="container-fluid" id="app">
 		<div class="row">
-			<!-- <i class="fa fa-sun-o fa-5x" aria-hidden="true"></i> -->
-			<div class="col-md-3"></div>
-			<div class="col-md-6"></div>
+			<div class="col-md-4-offset-md-4 date"><i class="fa fa-sun-o fa-2x" aria-hidden="true"></i></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4-offset-md-4 date" v-text="currentTime"></div>
+		</div>
+		<div class="row">
 			<div class="form-group">
 				<input type="text" class="form-control search" v-model="city" placeholder="Search">
+				<button type="submit" v-on:click='getData' class="btn btn-default">Search</button>
 			</div>
-			<button type="submit" v-on:click='getData' class="btn btn-default">Submit</button>
-			<div class="date" v-text="currentTime"></div>
-			<div class="container">
-				<div class="row">
-					<div class="forecast">
-						<ul class="col-md-3 day" v-for="(item, index) in openweathermap.list" :class="{ 'col-md-offset-9 day-one': index == 0, 'other-days': index > 0 }" v-if="index % 8 == 0">
-							<li class="time" ></li>
-							<li class="description">{{item.weather[0].description | capitalize}}</li>
-							<li class="icon"><i :class="'owf owf-' + item.weather[0].id + ' owf-4x'"></i></li>
-							<li class="temp">{{item.main.temp | round}}&deg;C</li>
-						</ul>
-					</div>
-				</div>
+		</div>	
+		<div class="row">
+			<div class="forecast">
+				<ul class="col-md-3 day" v-for="(item, index) in openweathermap.list" :class="{ 'col-md-offset-9 day-one': index == 0, 'other-days': index > 0 }" v-if="index % 8 == 0">
+					<li class="time" ></li>
+					<li class="description">{{item.weather[0].description | capitalize}}</li>
+					<li class="icon"><i :class="'owf owf-' + item.weather[0].id + ' owf-4x'"></i></li>
+					<li class="temp">{{item.main.temp | round}}&deg;C</li>
+				</ul>
 			</div>
+		</div>
 		</div>
 	</div>
 </body>

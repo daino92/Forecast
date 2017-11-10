@@ -73,7 +73,10 @@ body {
 input.form-control.search {
     width: 300px;
     float: left;
-    margin-right: 5px;
+}
+
+.searchfield {
+    display: block;
 }
 
 .msg {

@@ -49,6 +49,9 @@ new Vue({
     round: function roundUp(num, precision) {
       var precision = 1;
       return Math.ceil(num * precision) / precision;
+    },
+    dates: function (date) {
+      return moment(date + ' Z', 'YYYY-MM-DD HH:mm:ss Z', true).format('D MMM YYYY HH:mm');
     }
   }
 });

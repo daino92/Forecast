@@ -42,7 +42,6 @@
 }
 
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     min-height: 100%;
@@ -68,6 +67,14 @@ body {
     font-weight: 700;
     color: #fff;
     text-shadow: 2px 2px 3px #000;
+}
+
+.sun {
+    background-image: url(../Images/sun.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
 }
 
 input.form-control.search {
@@ -144,10 +151,6 @@ input.form-control.search {
     margin-top: 31px;
 }
 
-i.fa.fa-sun-o {
-    color: #7e5db4;
-}
-
 .forecast {
     font-size: 15px;
     color: #fff;
@@ -164,10 +167,7 @@ i.fa.fa-sun-o {
     padding: 10px;
 }
 
-.day-one {
-    padding-bottom: 200px;
-    font-size: 20px;
-}
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -186,5 +186,18 @@ i.fa.fa-sun-o {
     }
     input.form-control.search {
         width: 232px;
+    }
+
+    .searchfield {
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .day-one {
+        padding-bottom: 200px;
+        font-size: 20px;
     }
 }

@@ -4,10 +4,10 @@
 	<title>Weather app!</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="CSS/styles.css" />
-	<link rel=stylesheet href="bower_components/bootstrap/dist/css/bootstrap.css">
-	<link href="CSS/owfont-regular.css" rel="stylesheet" type="text/css">	
-	<link href="CSS/weather-icons.css" rel="stylesheet" type="text/css">	
+	<link href="resources/styles/styles.css" rel="stylesheet"/>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="resources/styles/owfont-regular.css" rel="stylesheet">	
+	<link href="resources/styles/weather-icons.css" rel="stylesheet">	
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -28,11 +28,11 @@
 		<div class="row">
 			<div class="col-md-4-offset-md-4 date" v-text="currentTime"></div>
 		</div>
-		<div class="row">
+		<div class="row margin--top--30">
 			<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
 				<div class="searchfield">
 					<input type="text" class="form-control search" v-model="city" placeholder="Search"/> 
-					<span class="input-group-btn">
+					<span class="input-group-btn display--inline-block">
 						<button class="btn btn-default" type="submit" v-on:click='getData'>Go!</button>
 					</span>
 				</div>
@@ -45,15 +45,14 @@
 					v-if="index % 8 == 0">
 				<li class="description">{{item.weather[0].description | capitalize}}</li>
 				<li class="icon"><i :class="'owf owf-' + item.weather[0].id + ' owf-4x'"></i></li>
-				<li class="temp">{{item.main.temp | round}}&deg;C {{item.main.humidity + '%' }}</li>
+				<li class="temp" v-if="item.main.temp > 0"> {{item.main.temp | round}}&deg;C {{item.main.humidity + '%' }}</li>
 			</ul>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script src="resources/scripts/vue.js"></script>
+	<script src="resources/scripts/app.js"></script>
 </body>
 </html>
-
-<script src="bower_components/jquery/dist/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="bower_components/vue/dist/vue.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-<script src="Javascript/vue.js" type="text/javascript" charset="utf-8"></script>
-<script src="Javascript/app.js" type="text/javascript" charset="utf-8"></script>

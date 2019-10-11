@@ -1,44 +1,44 @@
 @font-face {
     font-family: 'CFAstyStd-Bold';
-    src: url('../Fonts/CFAstyStd-Bold.eot?#iefix') format('embedded-opentype'),  
-    url('../Fonts/CFAstyStd-Bold.otf') format('opentype'),
-    url('../Fonts/CFAstyStd-Bold.woff') format('woff'), 
-    url('../Fonts/CFAstyStd-Bold.ttf') format('truetype'), 
-    url('../Fonts/CFAstyStd-Bold.svg#CFAstyStd-Bold') format('svg');
+    src: url('../fonts/CFAstyStd-Bold.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/CFAstyStd-Bold.otf') format('opentype'),
+    url('../fonts/CFAstyStd-Bold.woff') format('woff'), 
+    url('../fonts/CFAstyStd-Bold.ttf') format('truetype'), 
+    url('../fonts/CFAstyStd-Bold.svg#CFAstyStd-Bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CFAstyStd-Book';
-    src: url('../Fonts/CFAstyStd-Book.eot?#iefix') format('embedded-opentype'),  
-    url('../Fonts/CFAstyStd-Book.otf') format('opentype'),
-    url('../Fonts/CFAstyStd-Book.woff') format('woff'), 
-    url('../Fonts/CFAstyStd-Book.ttf') format('truetype'), 
-    url('../Fonts/CFAstyStd-Book.svg#CFAstyStd-Book') format('svg');
+    src: url('../fonts/CFAstyStd-Book.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/CFAstyStd-Book.otf') format('opentype'),
+    url('../fonts/CFAstyStd-Book.woff') format('woff'), 
+    url('../fonts/CFAstyStd-Book.ttf') format('truetype'), 
+    url('../fonts/CFAstyStd-Book.svg#CFAstyStd-Book') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CFAstyStd-Medium';
-    src: url('../Fonts/CFAstyStd-Medium.eot?#iefix') format('embedded-opentype'),  
-    url('../Fonts/CFAstyStd-Medium.otf') format('opentype'),
-    url('../Fonts/CFAstyStd-Medium.woff') format('woff'), 
-    url('../Fonts/CFAstyStd-Medium.ttf') format('truetype'), 
-    url('../Fonts/CFAstyStd-Medium.svg#CFAstyStd-Medium') format('svg');
+    src: url('../fonts/CFAstyStd-Medium.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/CFAstyStd-Medium.otf') format('opentype'),
+    url('../fonts/CFAstyStd-Medium.woff') format('woff'), 
+    url('../fonts/CFAstyStd-Medium.ttf') format('truetype'), 
+    url('../fonts/CFAstyStd-Medium.svg#CFAstyStd-Medium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url('../Fonts/FontAwesome.eot');
-    src: url('../Fonts/FontAwesome.eot') format('embedded-opentype'),
-         url('../Fonts/FontAwesome.woff2') format('woff2'),
-         url('../Fonts/FontAwesome.woff') format('woff'),
-         url('../Fonts/FontAwesome.ttf') format('truetype'),
-         url('../Fonts/FontAwesome.svg#FontAwesome') format('svg');
+    src: url('../fonts/FontAwesome.eot');
+    src: url('../fonts/FontAwesome.eot') format('embedded-opentype'),
+         url('../fonts/FontAwesome.woff2') format('woff2'),
+         url('../fonts/FontAwesome.woff') format('woff'),
+         url('../fonts/FontAwesome.ttf') format('truetype'),
+         url('../fonts/FontAwesome.svg#FontAwesome') format('svg');
 }
 
 html, body {
@@ -48,7 +48,7 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(0deg,rgba(126, 93, 180, 0.38),rgba(126, 93, 180, 0.38)), url("../Images/bg.jpg");
+    background-image: linear-gradient(0deg,rgba(126, 93, 180, 0.38),rgba(126, 93, 180, 0.38)), url("../images/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
 }
 
 .sun {
-    background-image: url(../Images/sun.png);
+    background-image: url(../images/sun.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

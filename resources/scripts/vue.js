@@ -21,7 +21,7 @@ new Vue({
   methods: {
     getData: function () {
       var self = this;
-      var url = 'http://api.openweathermap.org/data/2.5/forecast';
+      var url = 'https://api.openweathermap.org/data/2.5/forecast';
       var api = 'adba096f4cb1d97d649632a85dd1b593';
       var units = 'metric';
       var lang = 'en';
@@ -29,7 +29,7 @@ new Vue({
         //console.log("JSON list: ", json.list);
         self.openweathermap = json;
         var iconCode = json.list[0].weather[0].icon;
-        var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+        var iconUrl = "https://openweathermap.org/img/w/" + iconCode + ".png";
       });
     }, updateCurrentTime() {
       this.currentTime = moment().format("LTS");

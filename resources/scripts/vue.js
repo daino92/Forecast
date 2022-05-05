@@ -22,10 +22,10 @@ new Vue({
     getData: function () {
       var self = this;
       var url = 'https://api.openweathermap.org/data/2.5/forecast';
-      var api = 'adba096f4cb1d97d649632a85dd1b593';
+      var apiKey = '3ad375ae9f7bdab0543884e834f7b339';
       var units = 'metric';
       var lang = 'en';
-      $.getJSON(url + '?q=' + self.city + '&appid=' + api + '&units=' + units + '&lang=' + lang, function (json) {
+      $.getJSON(url + '?q=' + self.city + '&appid=' + apiKey + '&units=' + units + '&lang=' + lang, function (json) {
         //console.log("JSON list: ", json.list);
         self.openweathermap = json;
         var iconCode = json.list[0].weather[0].icon;

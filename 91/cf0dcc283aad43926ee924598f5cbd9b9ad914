@@ -1,0 +1,104 @@
+src/components/index.ts
+  s_2b91633f674e0b::t_0cc14062d9d112 1-3
+.vscode/extensions.json
+  s_2b91633f674e0b::t_2cb08bf36b2508 2-6
+src/assets/index.ts
+  s_2b91633f674e0b::t_f1a04f0ac2e797 1-2
+src/components/ForecastGrid.vue
+  s_2b91633f674e0b::t_0cc14062d9d112 3
+  s_2b91633f674e0b::t_c6dc5c0a5bd984 1-2,4-14
+.vscode/settings.json
+  s_2b91633f674e0b::t_2cb08bf36b2508 11,13-20
+  s_2b91633f674e0b::t_806231bbc6fd2c 8-10
+  s_2b91633f674e0b::t_350b13fb158ee0 12
+  s_2b91633f674e0b::t_30438e5ec9ba79 21-23
+  h_45320ec00daf5a 1-7,24
+.gitignore
+  s_2b91633f674e0b::t_33ea393be327b8 52-55,58
+  h_45320ec00daf5a 56
+README.md
+  s_2b91633f674e0b::t_2cb08bf36b2508 3-17
+src/composables/useClock.ts
+  s_2b91633f674e0b::t_c6dc5c0a5bd984 1-25
+src/components/ForecastCard.vue
+  s_2b91633f674e0b::t_0cc14062d9d112 2
+  s_2b91633f674e0b::t_c6dc5c0a5bd984 1,3-20
+src/types/index.ts
+  s_2b91633f674e0b::t_0cc14062d9d112 1
+src/types/weather.ts
+  s_2b91633f674e0b::t_c6dc5c0a5bd984 1-10
+src/composables/useWeather.ts
+  s_2b91633f674e0b::t_0cc14062d9d112 3
+  s_2b91633f674e0b::t_c6dc5c0a5bd984 1-2,4-16,18-21,23-37,39-44
+vite.config.ts
+  s_2b91633f674e0b::t_5166f6cec2ec12 1-8
+package.json
+  s_2b91633f674e0b::t_5ca91c18a5e3f2 17,19
+  s_2b91633f674e0b::t_f072c3cb60c5a1 20
+  s_2b91633f674e0b::t_5dee827caf94a2 6
+  s_2b91633f674e0b::t_4dcefdccdc15d0 10
+  s_2b91633f674e0b::t_4aff6dddfb70aa 9
+  s_2b91633f674e0b::t_c20d73e57f2b05 21-22
+  s_2b91633f674e0b::t_95949e31a09983 1-5,7-8,11-16,18,23-24
+src/composables/index.ts
+  s_2b91633f674e0b::t_0cc14062d9d112 1-2
+src/components/CitySearch.vue
+  s_2b91633f674e0b::t_c6dc5c0a5bd984 1-28
+tsconfig.json
+  s_2b91633f674e0b::t_5166f6cec2ec12 1-16
+.github/workflows/deploy.yml
+  s_2b91633f674e0b::t_5dee827caf94a2 22,26
+  s_2b91633f674e0b::t_8f0f8ddd7c9038 1,8-12,14,17-21,23-25,27-42
+  s_2b91633f674e0b::t_5579ac862bd001 5
+index.html
+  s_2b91633f674e0b::t_4aff6dddfb70aa 15
+  s_2b91633f674e0b::t_8f0f8ddd7c9038 1-7,11-14,16-17
+  s_2b91633f674e0b::t_ddea94d621de9b 8-10
+src/main.ts
+  s_2b91633f674e0b::t_5166f6cec2ec12 1-2,4-6
+  s_3eb6ba1c6d7cde::t_b99ed683d8b44c 3
+src/style.css
+  s_2b91633f674e0b::t_bf956807c36a9b 12
+  s_2b91633f674e0b::t_e771ac860986d3 1-11
+.env.example
+  s_2b91633f674e0b::t_95949e31a09983 1
+env.d.ts
+  s_2b91633f674e0b::t_71cfc42fefc6b7 2-8
+  s_2b91633f674e0b::t_5166f6cec2ec12 1
+src/App.vue
+  s_2b91633f674e0b::t_5fcc077ae54d4c 3
+  s_2b91633f674e0b::t_f1a04f0ac2e797 2
+  s_2b91633f674e0b::t_e47f3f0b540f49 1,5-23
+  s_2b91633f674e0b::t_0cc14062d9d112 4
+pnpm-lock.yaml
+  s_2b91633f674e0b::t_a1188d50646ff8 1-1258
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "91cf0dcc283aad43926ee924598f5cbd9b9ad914",
+  "prompts": {},
+  "humans": {
+    "h_45320ec00daf5a": {
+      "author": "Dionysis <daino92@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2b91633f674e0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c7f-4d88-7150-9f70-136bea1569bc",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Dionysis <daino92@gmail.com>"
+    },
+    "s_3eb6ba1c6d7cde": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1789065328829",
+        "model": "default"
+      },
+      "human_author": "Dionysis <daino92@gmail.com>"
+    }
+  }
+}

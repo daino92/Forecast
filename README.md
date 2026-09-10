@@ -2,6 +2,8 @@
 
 A Vue 3 weather forecast application powered by the OpenWeatherMap API.
 
+![Forecast preview](docs/forecast-preview.gif)
+
 ## Development
 
 ```sh

@@ -1,6 +1,17 @@
 # Forecast
 
-Local forecast application that shows information about the weather.
-You can also see forecast prediction for the four following days. The forecast is being updated every 3 hours. 
-Apart from the weather, you should be able to see humidity status, wind speed etc.
-This application was made using the openweathermap API. Written in Vue.js
+A Vue 3 weather forecast application powered by the OpenWeatherMap API.
+
+## Development
+
+```sh
+pnpm install
+cp .env.example .env
+pnpm dev
+```
+
+Set `VITE_OPENWEATHER_API_KEY` in `.env` before searching for a forecast. The
+API key is a browser-side key, so configure the allowed domains in OpenWeatherMap.
+
+Build the production site with `pnpm build`. The GitHub Actions workflow deploys
+the `dist/` directory to GitHub Pages.

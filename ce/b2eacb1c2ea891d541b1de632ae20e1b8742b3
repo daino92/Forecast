@@ -1,0 +1,44 @@
+src/components/ForecastCard.vue
+  s_2b91633f674e0b::t_dc038aa5745992 2-15,24-37,44
+  s_2b91633f674e0b::t_578926a416aeae 41-42,46
+.github/workflows/deploy.yml
+  s_2b91633f674e0b::t_7e45699018faae 9,11-12,31,35-47
+src/style.css
+  s_2b91633f674e0b::t_578926a416aeae 12,14-19
+src/components/ForecastGrid.vue
+  s_2b91633f674e0b::t_578926a416aeae 11
+package.json
+  s_2b91633f674e0b::t_469b678140da77 14
+src/types/weather.ts
+  s_2b91633f674e0b::t_f61dba32eacb38 10
+src/App.vue
+  s_2b91633f674e0b::t_578926a416aeae 12-13,15-17,21
+src/assets/index.ts
+  s_2b91633f674e0b::t_dc038aa5745992 3-14
+src/components/CitySearch.vue
+  s_2b91633f674e0b::t_578926a416aeae 14,19
+  s_2b91633f674e0b::t_699d0756fcd1f7 24-28
+pnpm-lock.yaml
+  s_2b91633f674e0b::t_75eb5c7e536d26 11-13,228-230,837-838
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ceb2eacb1c2ea891d541b1de632ae20e1b8742b3",
+  "prompts": {},
+  "humans": {
+    "h_45320ec00daf5a": {
+      "author": "Dionysis <daino92@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2b91633f674e0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c7f-4d88-7150-9f70-136bea1569bc",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Dionysis <daino92@gmail.com>"
+    }
+  }
+}

@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <section id="forecast" class="mx-auto mt-8 grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5" aria-label="Weather forecast">
+  <section id="forecast" class="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5" aria-label="Weather forecast">
     <ForecastCard v-for="item in items" :key="item.dt" :item="item" />
   </section>
 </template>

@@ -9,6 +9,13 @@
 
   body {
     margin: 0;
+    background: #0f172a;
     font-family: "Space Grotesk", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: rgb(45 212 191 / 35%);
   }
 }

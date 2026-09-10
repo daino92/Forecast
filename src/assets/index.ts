@@ -1,2 +1,14 @@
 export { default as backgroundImage } from "./images/bg.jpg";
 export { default as sunImage } from "./images/sun.png";
+export { default as clearDayIcon } from "@meteocons/svg-static/line/clear-day.svg";
+export { default as clearNightIcon } from "@meteocons/svg-static/line/clear-night.svg";
+export { default as cloudyIcon } from "@meteocons/svg-static/line/cloudy.svg";
+export { default as drizzleIcon } from "@meteocons/svg-static/line/drizzle.svg";
+export { default as fogIcon } from "@meteocons/svg-static/line/fog.svg";
+export { default as overcastIcon } from "@meteocons/svg-static/line/overcast.svg";
+export { default as partlyCloudyDayIcon } from "@meteocons/svg-static/line/partly-cloudy-day.svg";
+export { default as partlyCloudyNightIcon } from "@meteocons/svg-static/line/partly-cloudy-night.svg";
+export { default as rainIcon } from "@meteocons/svg-static/line/rain.svg";
+export { default as snowIcon } from "@meteocons/svg-static/line/snow.svg";
+export { default as thunderstormsDayIcon } from "@meteocons/svg-static/line/thunderstorms-day.svg";
+export { default as thunderstormsNightIcon } from "@meteocons/svg-static/line/thunderstorms-night.svg";

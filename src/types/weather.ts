@@ -7,5 +7,6 @@ export interface ForecastItem {
   weather: Array<{
     description: string;
     icon: string;
+    id: number;
   }>;
 }

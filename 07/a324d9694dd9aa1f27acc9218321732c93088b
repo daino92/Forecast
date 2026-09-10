@@ -1,0 +1,24 @@
+.github/workflows/deploy.yml
+  s_2b91633f674e0b::t_32a59ce3b7d949 15-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "07a324d9694dd9aa1f27acc9218321732c93088b",
+  "prompts": {},
+  "humans": {
+    "h_45320ec00daf5a": {
+      "author": "Dionysis <daino92@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2b91633f674e0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08c7f-4d88-7150-9f70-136bea1569bc",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Dionysis <daino92@gmail.com>"
+    }
+  }
+}
